@@ -8,4 +8,3 @@ var disqus_shortname = 'winares'; // required: replace example with your forum s
     s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
-
