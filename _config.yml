@@ -12,16 +12,16 @@ description_length: 200
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : 天外天
-address: EverCoding.net
-tagline: 天外有天，山外有山
+title :  MyBlog
+address: winares
+tagline: blog
 author :
-  name : Ever
-  email : g.everax@gmail.com
-  github : iEverX
+  name : winares
+  email : xxxxxx@gmail.com
+  github : winares
   twitter : username
   feedburner : feedname
-start_year: "2012"
+start_year: "2013"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -31,7 +31,7 @@ start_year: "2012"
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://blog.EverCoding.net
+production_url : http://winares@github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
