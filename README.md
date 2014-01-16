@@ -1,8 +1,8 @@
-# EverCoding.net
+# winares.github.com
 
 A static blog built with [Jekyll-BootStrap][] on github pages
 
-**EverCoding.net** is my domain.
+**winares.github.com** is my domain.
 
 ## Function that has been realized
 
