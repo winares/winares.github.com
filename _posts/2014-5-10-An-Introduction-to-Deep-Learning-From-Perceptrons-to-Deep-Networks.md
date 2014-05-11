@@ -181,11 +181,6 @@ categories: ["深度学习"]
 下一步来看下受限波尔兹曼机（Restricted Boltzmann machines  RBM），一种可以在输入数据集上学习概率分布的生成随机神经网络。
 
 <img src="/assets/media/image-5-11-10.png" alt="Pic" class="img-center">
-	
-### 访问你的BLOG
-等待一段时间，github就会为你生成网页。用浏览器打开网址：user_name.github.com，到此blog的搭建工作就算基本完成。
-
-在整个过程中，要熟悉对git命令的使用，这其实是个基本功，熟能生巧。
 
 RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，可见层和隐含层之间的连接是无方向性（值可以从可见层->隐含层或隐含层->可见层任意传输）且全连接的（每一个当前层的神经元与下一层的每个神经元都有连接——如果允许任意层的任意神经元连接到任意层去，我们就得到了一个波尔兹曼机（非受限的））。
 
@@ -219,6 +214,9 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 为了说明对比差异，我们使用与上例相同的流感症状的数据集。测试网络是一个包含6个可见层神经元、2个隐含层神经元的RBM。我们用对比差异的方法对网络进行训练，将症状  v  赋到可见层中。在测试中，这些症状值被重新传到可见层；然后再被传到隐含层。隐含层的神经元表示健康/生病的状态，与自编码器相似。
 
 在进行过几百次迭代后，我们得到了与自编码器相同的结果：输入一个生病样本，其中一个隐含层神经元具有更高激活值；输入健康的样本，则另一个神经元更兴奋。
+
+例子的代码在 [这里][code]
+[code]: https://github.com/ivan-vasilev/neuralnetworks/blob/master/nn-core/src/test/java/com/github/neuralnetworks/test/RBMTest.java。
 
 ###深度网络
 
@@ -266,6 +264,8 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 
 本过程和栈式自编码器很相似，只是用RBM将自编码器进行替换，并用对比差异算法将反向传播进行替换。
 
+(注: 例中的源码可以从  [此处][code][code]: https://github.com/ivan-vasilev/neuralnetworks/blob/d2bbc296eca926d07d09b860b29c5a5a3f632f63/nn-core/src/test/java/com/github/neuralnetworks/test/DNNTest.java 获得.)
+
 ###卷积网络
 
 这个是本文最后一个软件架构——卷积网络，一类特殊的对图像识别非常有效的前馈网络。
@@ -280,6 +280,8 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 *下采样层  缩减输入数据的规模。例如输入一个32x32的图像，并且通过一个2x2的下采样，那么可以得到一个16x16的输出图像，这意味着原图像上的四个像素合并成为输出图像中的一个像素。实现下采样的方法有很多种，最常见的是最大值合并、平均值合并以及随机合并。
 *最后一个下采样层（或卷积层）通常连接到一个或多个全连层，全连层的输出就是最终的输出。
 *训练过程通过改进的反向传播实现，将下采样层作为考虑的因素并基于所有值来更新卷积滤波器的权重。
+
+可以 [在这][code][code]: https://github.com/ivan-vasilev/neuralnetworks/blob/9e569aa7c9a4d724cf3c1aed8a8036af272ec58f/nn-samples/src/test/java/com/github/neuralnetworks/samples/test/MnistTest.java 看几个应用在  MNIST  数据集上的卷积网络的例子， 在这 还有一个用JavaScript实现的一个可视的类似网络。
 
 实现
 
