@@ -216,6 +216,7 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 在进行过几百次迭代后，我们得到了与自编码器相同的结果：输入一个生病样本，其中一个隐含层神经元具有更高激活值；输入健康的样本，则另一个神经元更兴奋。
 
 例子的代码在 [这里][code2]
+
 [code2]: https://github.com/ivan-vasilev/neuralnetworks/blob/master/nn-core/src/test/java/com/github/neuralnetworks/test/RBMTest.java。
 
 ###深度网络
@@ -264,7 +265,7 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 
 本过程和栈式自编码器很相似，只是用RBM将自编码器进行替换，并用对比差异算法将反向传播进行替换。
 
-(注: 例中的源码可以从  [此处][code3]
+(注: 例中的源码可以从  [此处][code3]获得)
 
 [code3]: https://github.com/ivan-vasilev/neuralnetworks/blob/d2bbc296eca926d07d09b860b29c5a5a3f632f63/nn-core/src/test/java/com/github/neuralnetworks/test/DNNTest.java 获得.)
 
@@ -283,7 +284,7 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 *最后一个下采样层（或卷积层）通常连接到一个或多个全连层，全连层的输出就是最终的输出。
 *训练过程通过改进的反向传播实现，将下采样层作为考虑的因素并基于所有值来更新卷积滤波器的权重。
 
-可以 [在这][code4]
+可以[在这][code4]看几个应用在  MNIST  数据集上的卷积网络的例子， 在这 还有一个用JavaScript实现的一个可视的类似网络。
 
 [code4]: https://github.com/ivan-vasilev/neuralnetworks/blob/9e569aa7c9a4d724cf3c1aed8a8036af272ec58f/nn-samples/src/test/java/com/github/neuralnetworks/samples/test/MnistTest.java 看几个应用在  MNIST  数据集上的卷积网络的例子， 在这 还有一个用JavaScript实现的一个可视的类似网络。
 
