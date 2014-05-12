@@ -265,9 +265,9 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 
 本过程和栈式自编码器很相似，只是用RBM将自编码器进行替换，并用对比差异算法将反向传播进行替换。
 
-(注: 例中的源码可以从  [此处][code3]获得)
+(注: 例中的源码可以从  [此处][code3] 获得)
 
-[code3]: https://github.com/ivan-vasilev/neuralnetworks/blob/d2bbc296eca926d07d09b860b29c5a5a3f632f63/nn-core/src/test/java/com/github/neuralnetworks/test/DNNTest.java 获得.)
+[code3]: https://github.com/ivan-vasilev/neuralnetworks/blob/d2bbc296eca926d07d09b860b29c5a5a3f632f63/nn-core/src/test/java/com/github/neuralnetworks/test/DNNTest.java
 
 ###卷积网络
 
@@ -286,7 +286,7 @@ RBM由隐含层、可见层、偏置层组成。和前馈神经网络不同，�
 
 可以[在这][code4]看几个应用在  MNIST  数据集上的卷积网络的例子， 在这 还有一个用JavaScript实现的一个可视的类似网络。
 
-[code4]: https://github.com/ivan-vasilev/neuralnetworks/blob/9e569aa7c9a4d724cf3c1aed8a8036af272ec58f/nn-samples/src/test/java/com/github/neuralnetworks/samples/test/MnistTest.java 看几个应用在  MNIST  数据集上的卷积网络的例子， 在这 还有一个用JavaScript实现的一个可视的类似网络。
+[code4]: https://github.com/ivan-vasilev/neuralnetworks/blob/9e569aa7c9a4d724cf3c1aed8a8036af272ec58f/nn-samples/src/test/java/com/github/neuralnetworks/samples/test/MnistTest.java
 
 实现
 
