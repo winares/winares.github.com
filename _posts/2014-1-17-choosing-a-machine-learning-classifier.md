@@ -16,6 +16,7 @@ How do you know what machine learning algorithm to choose for your classificatio
 如何针对某个分类问题决定使用何种机器学习算法？ 当然，如果你真心在乎准确率，最好的途径就是测试一大堆各式各样的算法（同时确保在每个算法上也测试不同的参数），最后选择在交叉验证中表现最好的。倘若你只是想针对你的问题寻找一个“足够好”的算法，或者一个起步点，这里给出了一些我觉得这些年用着还不错的常规指南。
 
 ###How large is your training set?
+
 ###训练集有多大？
 
 If your training set is small, high bias/low variance classifiers (e.g., Naive Bayes) have an advantage over low bias/high variance classifiers (e.g., kNN), since the latter will overfit. But low bias/high variance classifiers start to win out as your training set grows (they have lower asymptotic error), since high bias classifiers aren’t powerful enough to provide accurate models.
@@ -27,6 +28,7 @@ You can also think of this as a generative model vs. discriminative model distin
 你也可以把这一点看作生成模型和判别模型的差别。
 	
 ###Advantages of some particular algorithms
+
 ###一些常用算法的优缺点
 
 Advantages of Naive Bayes: Super simple, you’re just doing a bunch of counts. If the NB conditional independence assumption actually holds, a Naive Bayes classifier will converge quicker than discriminative models like logistic regression, so you need less training data. And even if the NB assumption doesn’t hold, a NB classifier still often does a great job in practice. A good bet if want something fast and easy that performs pretty well. Its main disadvantage is that it can’t learn interactions between features (e.g., it can’t learn that although you love movies with Brad Pitt and Tom Cruise, you hate movies where they’re together).
@@ -49,7 +51,7 @@ Advantages of SVMs: High accuracy, nice theoretical guarantees regarding overfit
 支持向量机: 高准确率，为避免过拟合提供了很好的理论保证，而且就算数据在原特征空间线性不可分，只要给个合适的核函数，它就能运行得很好。在动辄超高维的文本分类问题中特别受欢迎。可惜内存消耗大，难以解释，运行和调参也有些烦人，所以我认为随机森林要开始取而代之了。
 
 ###But…
- 
+
 ###然而。。。
  
 Recall, though, that better data often beats better algorithms, and designing good features goes a long way. And if you have a huge dataset, then whichever classification algorithm you use might not matter so much in terms of classification performance (so choose your algorithm based on speed or ease of use instead).
