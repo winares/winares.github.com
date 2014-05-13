@@ -190,7 +190,7 @@ Markdown支持两种风格的链接：*Inline*和*Reference*。
 
 #### 效果：
 
-<img src="/assets/images/image-11-21.jpg" alt="替代文本" title="标题文本" width="200" />
+<img src="/assets/media/image-11-21.jpg" alt="替代文本" title="标题文本" width="200" />
 
 - - - 
 
