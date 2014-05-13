@@ -13,7 +13,7 @@ categories: ["Markdown"]
 Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）和亚伦·斯沃茨（Aaron Swartz）。
 它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
 
-##宗旨
+###宗旨
 
 Markdown 的目标是实现「易读易写」。
 
@@ -22,7 +22,7 @@ Markdown 的目标是实现「易读易写」。
 总之， Markdown 的语法全由一些符号所组成，这些符号经过精挑细选，其作用一目了然。比如：在文字两旁加上星号，看起来就像*强调*。Markdown 的列表看起来，嗯，就是列表。Markdown 的区块引用看起来就真的像是引用一段文字，就像你曾在电子邮件中见过的那样。
 
 
-## 标题
+###标题
 Markdown提供了两种方式（Setext和Atx）来显示标题。
 #### 语法：
 
@@ -53,12 +53,12 @@ Atx方式
 
 - - - 
 
-## 换行
+###换行
 在文字的末尾使用两个或两个以上的空格来表示换行。
 
 - - - 
 
-## 引用
+###引用
 行首使用`>`加上一个空格表示引用段落，内部可以嵌套多个引用。   
 #### 语法：
 
@@ -75,7 +75,7 @@ Atx方式
 
 - - - 
 
-## 列表
+###列表
 __无序列表__使用`*`、`+`或`-`后面加上空格来表示。  
 #### 语法：
 
@@ -120,7 +120,7 @@ __有序列表__使用数字加英文句号加空格表示。
 
 - - - 
 
-## 代码区域
+###代码区域
 __行内代码__使用**反斜杠**<code>`</code>表示。   
 __代码段落__则是在每行文字前加4个空格或者1个缩进符表示。
 
@@ -139,7 +139,7 @@ Bash中可以使用echo来进行输出。
 
 - - - 
 
-## 强调
+###强调
 Markdown使用`\*`或`\_`表示强调。
 
 #### 语法：
@@ -157,28 +157,30 @@ Markdown使用`\*`或`\_`表示强调。
 
 - - - 
 
-## 链接
+###链接
 Markdown支持两种风格的链接：*Inline*和*Reference*。 
+
 #### 语法：
 *Inline*：以中括号标记显示的链接文本，后面紧跟用小括号包围的链接。如果链接有title属性，则在链接中使用**空格**加**"title属性"**。  
 *Reference*：一般应用于多个不同位置使用相同链接。通常分为两个部分，调用部分为`[链接文本][ref]`；定义部分可以出现在文本中的其他位置，格式为`[ref]: http://some/link/address (可选的标题)`。   
 *注：ref中不区分大小写。*   
 
-	这是一个Inline[示例](http://equation85.github.com "可选的title")。
+	这是一个Inline[示例](http://winares.github.com "可选的title")。
 	这是一个Reference[示例][ref]。
-	[ref]: http://equation85.github.com
+	[ref]: http://winares.github.com
 
 #### 效果：
 
-这是一个*Inline*[示例](http://equation85.github.com "可选的title")。   
+这是一个*Inline*[示例](http://winares.github.com "可选的title")。   
 这是一个*Reference*[示例][ref]。
-[ref]: http://equation85.github.com
+[ref]: http://winares.github.com
 
 - - - 
 
-## 图片
+###图片
 图片的使用方法基本上和链接类似，只是在中括号前加**叹号**。   
 *注：Markdown不能设置图片大小，如果必须设置则应使用HTML标记&lt;img&gt;。*   
+
 #### 语法：
 
 	Inline示例：![替代文本](/assets/images/jian.jpg "可选的title")
@@ -188,11 +190,12 @@ Markdown支持两种风格的链接：*Inline*和*Reference*。
 
 #### 效果：
 
-<img src="/assets/images/jian.jpg" alt="替代文本" title="标题文本" width="200" />
+<img src="/assets/images/image-11-21.jpg" alt="替代文本" title="标题文本" width="200" />
 
 - - - 
 
-## 其他
+###其他
+
 #### 自动链接
 使用**尖括号**，可以为输入的URL或者邮箱自动创建链接。如<test@domain.com>。
 
@@ -219,5 +222,5 @@ Markdown中的转义字符为`\`，可以转义的有：
 
 - - - 
 
-## 结语
+###结语
 Markdown语法很大程度上减少了编辑的成本，但是在写作这篇文章的时候也发现某些标记对中文的支持似乎并不完美，虽然这些缺陷可以通过直接插入HTML代码解决（但这么做一点都不漂亮）。总的来说，能够在离线状态下使用命令行模式进行写作还是很爽的，相比在线写作模式精力可以更专注。
