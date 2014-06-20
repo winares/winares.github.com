@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git基本操作"
+title: "Git远程操作"
 tagline: "git operation"
 description: "Git远程操作详解"
 tags: ["git"]
