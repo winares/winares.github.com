@@ -38,11 +38,11 @@ categories: ["git"]
 
 **git rebase**：用下面两幅图解释会比较清楚一些，rebase命令执行后，实际上是将分支点从C移到了G，这样分支也就具有了从C到G的功能
 
-![pic](/assets/images/20120630_git1.png "rebase之前")
+![pic](/assets/images/20131116_git1.png "rebase")
 
 **git reset**：将当前的工作目录完全回滚到指定的版本号，假设如下图，我们有A-G五次提交的版本，其中C的版本号是 bbaf6fb5060b4875b18ff9ff637ce118256d6f20，我们执行了'git reset bbaf6fb5060b4875b18ff9ff637ce118256d6f20'那么结果就只剩下了A-C三个提交的版本
 
-![pic](/assets/images/20120630_git3.png "reset")
+![pic](/assets/images/20131116_git2.png "reset")
 
 **git stash**：将当前未提交的工作存入Git工作栈中，时机成熟的时候再应用回来，这里暂时提一下这个命令的用法，后面在技巧篇会重点讲解
 
