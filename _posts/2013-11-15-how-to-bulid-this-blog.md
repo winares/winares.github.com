@@ -38,11 +38,13 @@ DevKit。
 
 ### 配置Git
 在RailInstaller安装完成界面(程序安装的最后一步)，提示是否进行Git环境的配置，默认情况是选择是，选择“确定”就行。
+
 如果你之前配置好了git，这边会自动检测到你的相关信息，如git帐号，邮箱，key，以及会显示一些软件信息如：ruby，git版本之类的，
 并且自动cd到目录 /c/Sites下面，今后你只要将博客放在该目录下就行。
 在开始菜单里找到RailsInstaller –> Git Bash，执行它，就打开了下面的命令窗口，以后的配置操作都是在这个窗口下进行的，
 首先测试是否git可以正常连接，如果不能，请回到第一步进行Git的配置(该命令在运行，开始->程序->RailsInstaller –> Git Bash 控制台下执行(该控制台我主要是为配置环境用))。
-	ssh -T git@github.com
+	
+ssh -T git@github.com
 提示以下信息表示连接成功：
 
 	$  ssh -T git@github.com
@@ -69,8 +71,7 @@ DevKit。
 
 ### 建立github pages
 在github.com上创建代码库，登录到自己的Github账户，选择New repository,比如新建一个名如：user_name.github.com的代码库，
-然后在代码库页，选择右侧的下拉列表框：Settings，就会对该项目进行修改，找到Github Pages一栏，点击右侧Automatic Page Generator按钮，
-生成网页，稍等片刻系统就会将网页生成好。待生成好后，克隆自己的代码库
+然后在代码库页，选择右侧的下拉列表框：Settings，就会对该项目进行修改，找到Github Pages一栏，点击右侧Automatic Page Generator按钮，生成网页，稍等片刻系统就会将网页生成好。待生成好后，克隆自己的代码库
 	git clone git@github.com:user_name/user_name.github.com.git
 执行以后，git会把存放在github上的代码库文件下载到本地的，生成名为user_name.github.com的目录。删掉.git目录，并且将网站文件放置在该文件夹下。
 

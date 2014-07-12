@@ -8,7 +8,6 @@ categories: ["git"]
 ---
 {% include JB/setup %}
 
-本文来自[网络](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)。
 
 Git是目前最流行的版本管理系统，学会Git几乎成了开发者的必备技能。
 
@@ -184,3 +183,5 @@ $ git push --force origin
 最后，git push不会推送标签（tag），除非使用--tags选项。
 
 $ git push origin --tags
+
+本文来自[网络](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)。
