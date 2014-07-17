@@ -72,7 +72,9 @@ ssh -T git@github.com
 ### 建立github pages
 在github.com上创建代码库，登录到自己的Github账户，选择New repository,比如新建一个名如：user_name.github.com的代码库，
 然后在代码库页，选择右侧的下拉列表框：Settings，就会对该项目进行修改，找到Github Pages一栏，点击右侧Automatic Page Generator按钮，生成网页，稍等片刻系统就会将网页生成好。待生成好后，克隆自己的代码库
+
 	git clone git@github.com:user_name/user_name.github.com.git
+
 执行以后，git会把存放在github上的代码库文件下载到本地的，生成名为user_name.github.com的目录。删掉.git目录，并且将网站文件放置在该文件夹下。
 
 在这里你可以使用jekyll已有的模板，或者参考别人的模板进行编辑修改。
@@ -94,9 +96,11 @@ ssh -T git@github.com
 	2013-12-12-first-page.md
 请确保你的文件被保存为不含 BOM 的 UTF-8(若不是将会出错，可以使用notepad++ 来进行格式转换) 
 使用git命令推送到git服务器上，先加入本地库中
+
 	git add .
 	git commit -m"new blog“
 	git push
+
 如果你在其他机器上修改过，那么先要执行 git pull否则会提示： non-fast-forward错误
 
 	C:\Sites\username.github.com>git push
