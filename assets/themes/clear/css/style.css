@@ -4,7 +4,7 @@ body {
 }
 
 .left {
-    width: 70.468% !important;
+    width: 80.468% !important;
 }
 
 .right {
@@ -78,7 +78,7 @@ body {
 }
 
 .mainbody thepost {  /*add in 2014-7-18*/
-    font-size:16px
+    font-size:20px
 }
 
 .side-container {
