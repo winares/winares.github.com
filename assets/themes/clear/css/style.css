@@ -77,6 +77,10 @@ body {
     margin: 5px;
 }
 
+.mainbody thepost {  /*add in 2014-7-18*/
+    font-size:12px
+}
+
 .side-container {
     background-color: #fff;
     margin-bottom: 10px;
