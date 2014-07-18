@@ -1,7 +1,6 @@
 body {
     /*background-image: url(../img/bg.gif);*/
     background-color: #eee;
-	font-family:"Microsoft YaHei";/*add in 2014-7-18*/
 }
 
 .left {
@@ -75,10 +74,11 @@ body {
 .mainbody {
     padding: 15px 10px;
     margin: 5px;
+	font-family:"Microsoft YaHei";/*add in 2014-7-18*/
 }
 
 .mainbody thepost {  /*add in 2014-7-18*/
-    font-size:15px
+    font-size:16px
 }
 
 .side-container {
