@@ -8,7 +8,7 @@ body {
 }
 
 .right {
-    width: 27.404% !important;
+    width: 17.404% !important;
 }
 
 .shadow {
@@ -78,7 +78,7 @@ body {
 }
 
 .mainbody thepost {  /*add in 2014-7-18*/
-    font-size:20px
+    font-size:15px;
 }
 
 .side-container {
