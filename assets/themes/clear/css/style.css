@@ -132,3 +132,6 @@ code {
     border: none;
     padding: 0 3px;
 }
+
+/*add in 2014-7-18*/
+.img-center{margin:0 auto;display:block;}
