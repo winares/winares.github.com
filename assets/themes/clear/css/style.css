@@ -77,8 +77,8 @@ body {
 	font-family:"Microsoft YaHei";/*add in 2014-7-18*/
 }
 
-.mainbody thepost {  /*add in 2014-7-18*/
-    font-size:15px;
+.thepost {  /*add in 2014-7-18*/
+    font-size:1.5em;
 }
 
 .side-container {
