@@ -74,11 +74,11 @@ body {
 .mainbody {
     padding: 15px 10px;
     margin: 5px;
-	font-family:"Microsoft YaHei";/*add in 2014-7-18*/
+	/*font-family:"Microsoft YaHei";add in 2014-7-18*/
 }
 
 .thepost {  /*add in 2014-7-18*/
-    /*font-size:1.2em;*/
+    font-size:1.2em;
 }
 
 .side-container {
