@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "记忆中的朴树"
-tagline: "Pu Shu in memory"
-description: "记忆中的朴树"
-tags: ["闲谈"]
-categories: [闲谈"]
+title: "如何成为一个卓越的程序员"
+tagline: "How to be a great software developer"
+description: "如何成为一个卓越的程序员"
+tags: [思考"]
+categories: [思考"]
 ---
 {% include JB/setup %}
 
