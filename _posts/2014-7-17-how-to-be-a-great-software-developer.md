@@ -231,7 +231,7 @@ categories: ["思考"]
 
 你负重太多而无法前进，阻碍你弯曲四肢，无法移动。太少的话，第一次跨过混凝土地板的滑动就会伤到你，让你流血。
 
-[![tumblr_inline_n4fo9ccH9O1qznw8n](http://jbcdn2.b0.upaiyun.com/2014/06/7aeeadb03f2521c8843cf73be3402186-300x171.png)](http://jbcdn2.b0.upaiyun.com/2014/06/7aeeadb03f2521c8843cf73be3402186.png "如何成为一个卓越的程序员")
+![](http://jbcdn2.b0.upaiyun.com/2014/06/7aeeadb03f2521c8843cf73be3402186.png)("如何成为一个卓越的程序员")
 
 关于如何进行适量的测试，没有直观的答案，某些项目需要比其他项目更多的测试，测试是你专业化需要学习的一个全新的领域。
 
