@@ -3,8 +3,8 @@ layout: post
 title: "如何成为一个卓越的程序员"
 tagline: "How to be a great software developer"
 description: "如何成为一个卓越的程序员"
-tags: [思考"]
-categories: [思考"]
+tags: ["思考"]
+categories: ["思考"]
 ---
 {% include JB/setup %}
 
