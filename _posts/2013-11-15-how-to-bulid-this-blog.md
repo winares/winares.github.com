@@ -119,7 +119,7 @@ ssh -T git@github.com
 
 
 软件汇总：
-- RailInstall下载链接：[RailInstall-1.9.3-p448][rail]
+- RailInstall下载链接：[RailInstall-2.0.1][rail]
 
 [rail]: http://inwake.com/ypchen/files/upload/railsinstaller-2.0.1.exe
 
