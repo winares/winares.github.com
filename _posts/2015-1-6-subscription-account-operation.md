@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "公众号运营"
+title: "从产品运营思路看微信公众号运营"
 tagline: "subscription account operation"
-description: "从产品运营思路看微信公众号运营"
+description: "公众号运营"
 tags: ["运营，微信"]
 ---
 {% include JB/setup %}
