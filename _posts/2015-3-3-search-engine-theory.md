@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "从产品运营思路看微信公众号运营"
-tagline: "subscription account operation"
-description: "公众号运营"
-tags: ["运营","微信"]
+title: "解读百度搜索引擎工作原理"
+tagline: "search engine theory"
+description: "搜索引擎原理"
+tags: ["架构"]
 ---
 {% include JB/setup %}
 
