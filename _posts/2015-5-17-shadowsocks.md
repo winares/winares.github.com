@@ -8,6 +8,7 @@ tags: ["架构"]
 {% include JB/setup %}
 
 
+<img src="/assets/media/20150517_0.png" alt="Pic" class="img-center">
 
 　　除去广为人知、人见人爱的[VPN](http://www.i-vpn.net)，其实还有十八般兵器存在于科学上网界，其中ShadowSocks可以说是其中一把功能齐全的瑞士军刀。服务器端提供了各种版本，如Python、Nodejs、Go、C libev等等，安装配置过程极其简单。而用户端则可以在windows、mac、iOS和android上轻松运行，很好很强大。
 
