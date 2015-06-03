@@ -8,7 +8,7 @@ tags: ["git"]
 {% include JB/setup %}
 
 
-First : 安装：ubuntu 下，终端输入命令：
+First : 安装git,不多说
 
 
 Next : 设置SSH Key
