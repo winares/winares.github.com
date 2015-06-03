@@ -35,8 +35,9 @@ Next : 设置SSH Key
 	
 	$ssh -T git@github.com
 	
-	提示以下信息表示连接成功：
-	
+提示以下信息表示连接成功：
+
+	$  ssh -T git@github.com
 	Hi user_name! You've successfully authenticated, but GitHub does not provide shell
 	access.
 
