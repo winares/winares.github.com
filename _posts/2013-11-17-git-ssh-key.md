@@ -31,7 +31,7 @@ Next : 设置SSH Key
 
 <img src="/assets/media/20131117_2.jpg" alt="Pic" class="img-center">
 
-5.  测试OK。输入命令：
+5.  测试。输入命令：
 
 	$ssh -T git@github.com
 	
